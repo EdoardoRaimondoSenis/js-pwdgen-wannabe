@@ -26,10 +26,16 @@ body {
 }
 
 #prisultato {
+    display: flex;
     padding: 10px 20px;
     margin: 10px 0;
     border-style: none;
     border-radius: 10px;
     background-color: white;
     box-shadow: 5px 5px lightseagreen;
+}
+
+#risultato {
+    font-size: 15px;
+    margin: 0 5px;
 }

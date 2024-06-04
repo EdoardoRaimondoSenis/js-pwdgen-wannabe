@@ -6,4 +6,5 @@ let risultato = nome + cognome + cp + 23;
 
 console.log("La password creata è: " + risultato);
 
-document.write(risultato).innerHTML;
+document.getElementById("risultato").innerHTML = "La password creata è: " + risultato;
+
